@@ -346,7 +346,7 @@
                 <p class="footer-paragraph">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
             </div>
 
-            <div>
+            <div class="div-media-footer">
                     <p class="social-media">Social media</p>
                     <ul class="social-list footer">
                             <li class="item-social">
@@ -381,15 +381,73 @@
             </div>  
             
             <div>
-                <form>
+                <form class="form">
                 <label class="subscribe">
                      Subscribe                   
                     <input class="email" type="email" name="email" placeholder="E-mail"/>
                 </label>
+
+                <button class="sbmt-btn" type="submit">
+                    Subscribe 
+                    <svg class="icon-social" width="24" height="24">
+                                        <use class="item-icon" href="./images/icons.svg#tg"></use>
+                    </svg>
+                </button>
                 </form>
             </div>
         </div>
     </footer>
+
+    <div class="modal-overlay">
+        <div class="modal">
+            <div class="div-close">
+                <a href="">
+                    <svg class="icon-social" width="24" height="24">
+                        <use class="item-icon" href="./images/icons.svg#close"></use>
+                    </svg>  
+                </a>                 
+            </div>
+            <form class="form-modal">
+                <p class="form-text">Leave your contacts and we will call you back</p>
+                
+                <label class="label-form icon one">
+                    Name
+                        <svg class="icon-social form one" width="18" height="24">
+                                <use class="item-icon" href="./images/icons.svg#frame1"></use>
+                        </svg>
+                    <input class="form-input" type="text" name="username" placeholder="" required/>
+                </label>
+                
+                <label class="label-form icon second">
+                    Phone
+                        <svg class="icon-social form second" width="18" height="24">
+                                <use class="item-icon" href="./images/icons.svg#phone"></use>
+                        </svg>
+                        <input class="form-input" type="tel" name="username" placeholder="" required/>
+
+                </label>
+
+                <label class="label-form icon third">
+                    Email
+                        <svg class="icon-social form third" width="18" height="24">
+                                <use class="item-icon" href="./images/icons.svg#email"></use>
+                        </svg>
+                    <input class="form-input" type="email" name="username" placeholder="" required/>
+                </label>
+
+                <label class="label-form textarea">
+                    Comments
+                    <textarea class="input-textarea" class="textarea" type="textarea" rows="7"  placeholder="Text input"></textarea>
+                </label>
+
+                <div class="div-policy">
+                    <input type="checkbox" name="checkbox" id="policy" required />
+                    <label class="policy" for="policy">I accept the terms and conditions of the <a href=""><span class="span-policy">Privacy Policy</span></a></label>
+                </div>
+                <button class="send-button" type="submit">Send</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
 
