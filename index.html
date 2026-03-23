@@ -401,43 +401,51 @@
     <div class="modal-overlay">
         <div class="modal">
             <div class="div-close">
-                <a href="">
-                    <svg class="icon-social" width="24" height="24">
-                        <use class="item-icon" href="./images/icons.svg#close"></use>
-                    </svg>  
-                </a>                 
+                <button type="button" class="close-button">
+                    <div>
+                        <svg class="icon-social close" width="8" height="8">
+                            <use class="item-icon" href="./images/icons.svg#close"></use>
+                        </svg>  
+                    </div>
+                </button>                 
             </div>
             <form class="form-modal">
                 <p class="form-text">Leave your contacts and we will call you back</p>
                 
                 <label class="label-form icon one">
                     Name
+                      <div>
                         <svg class="icon-social form one" width="18" height="24">
                                 <use class="item-icon" href="./images/icons.svg#frame1"></use>
                         </svg>
+                      </div>
                     <input class="form-input" type="text" name="username" placeholder="" required/>
                 </label>
                 
                 <label class="label-form icon second">
                     Phone
+                        <div>
                         <svg class="icon-social form second" width="18" height="24">
                                 <use class="item-icon" href="./images/icons.svg#phone"></use>
                         </svg>
+                        </div>
                         <input class="form-input" type="tel" name="username" placeholder="" required/>
 
                 </label>
 
                 <label class="label-form icon third">
                     Email
+                        <div>
                         <svg class="icon-social form third" width="18" height="24">
                                 <use class="item-icon" href="./images/icons.svg#email"></use>
                         </svg>
+                        </div>
                     <input class="form-input" type="email" name="username" placeholder="" required/>
                 </label>
 
                 <label class="label-form textarea">
                     Comments
-                    <textarea class="input-textarea" class="textarea" type="textarea" rows="7"  placeholder="Text input"></textarea>
+                    <textarea class="input-textarea" type="textarea" name="textarea" rows="7"  placeholder="Text input"></textarea>
                 </label>
 
                 <div class="div-policy">

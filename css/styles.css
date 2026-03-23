@@ -279,10 +279,6 @@ p{
     gap:16px;
 }
 
-.div-media-footer{
-    margin-left: 40px;
-}
-
 .order-button:focus,
 .order-button:hover{
     background-color:#404BBF ;
@@ -367,10 +363,6 @@ p{
     background-color:#2E2F42;
     color:#F4F4Fd;
     padding: 100px 0;
-}
-
-.icon-social{
-    fill:#F4F4FD; 
 }
 
 .social-link{
@@ -483,7 +475,7 @@ p{
 }
 
 .modal-overlay{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(46, 47, 66, 0.4);
     left:0;
     top:0;
     position:fixed;
@@ -575,7 +567,7 @@ p{
     margin: 16px 0 0;
     display: flex;
     align-items: center;
-    gap:4px;
+    gap:8px;
 }
 
 .span-policy{
@@ -612,9 +604,30 @@ p{
     margin: 24px auto 24px;
 }
 
-.div-close:active .icon-social{
-    fill:#404BBF;
+.icon-social.close{
+    align-self: center;
+}
+
+.div-close:hover .icon-social,
+.div-close:focus .icon-social{
     color:white;
+}
+
+.close-button{
+    border-radius: 100%;
+    background-color: #E7E9FC;
+    width: 24px;
+    height: 24px;
+    border:1px solid rgba(0, 0, 0, 0.1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display:flex;
+    justify-content: center;
+}
+
+.div-close:hover .close-button,
+.div-close:focus .close-button{
+    background-color: #4D5AE5;
+    cursor: pointer;
 }
 
 .form-input{
@@ -624,10 +637,10 @@ p{
     height: 40px;
     outline: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
-.send-button:active{
+.send-button:hover,
+.send-button:hover{
     background-color: #404BBF;
     cursor:pointer;
 }
