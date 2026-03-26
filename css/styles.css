@@ -382,16 +382,16 @@ p{
     gap:16px;
 }
 
+.subscribe-container{
+    margin-left: auto;
+}
+
 .social-media-text{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: white;
-}
-
-.div-media-footer{
-    margin-right: 80px;
 }
 
 .text-subscribe{
@@ -577,7 +577,7 @@ p{
 }
 
 .form-group {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .label-form {
@@ -687,7 +687,7 @@ input[type="checkbox"]:checked + .policy .custom-checkbox {
 
 input[type="checkbox"]:checked + .policy .custom-checkbox .icon-check {
     opacity: 1; 
-    fill: #4D5AE5;
+    fill: #f4f4fd;
 }
 
 .send-button {
