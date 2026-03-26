@@ -569,6 +569,7 @@ p{
 .close-button:focus {
     background-color: #404bbf;
     border: none;
+    outline: none;
 }
 
 .close-button:hover .icon-social.close,
@@ -580,7 +581,7 @@ p{
     margin-bottom: 8px;
 }
 
-.form-group:last-child {
+.form-group.last {
     margin-bottom: 16px;
 }
 
