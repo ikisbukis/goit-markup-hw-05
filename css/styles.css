@@ -390,6 +390,10 @@ p{
     color: white;
 }
 
+.div-media-footer{
+    margin-right: 80px;
+}
+
 .text-subscribe{
     font-weight: 500;
     font-size: 16px;
@@ -480,13 +484,12 @@ p{
 
 .page-footer .container{
     display:flex;
-    justify-content: flex-end;
-    gap:80px;
     align-items: baseline;
 }
 
 .logo-foot{
-    margin-right:auto;
+    max-width: 264px;
+    margin-right: 120px;
 }
 
 .link:hover,
@@ -637,7 +640,6 @@ p{
 }
 
 .div-policy {
-    margin-top: 16px;
     margin-bottom: 24px;
 }
 
@@ -673,18 +675,19 @@ p{
 }
 
 .icon-check {
-    opacity: 0;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: transparent; 
+    opacity: 0; 
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 input[type="checkbox"]:checked + .policy .custom-checkbox {
     background-color: #404BBF; 
     border: none; 
-    fill: #F4F4FD; 
 }
 
 input[type="checkbox"]:checked + .policy .custom-checkbox .icon-check {
     opacity: 1; 
+    fill: #4D5AE5;
 }
 
 .send-button {
